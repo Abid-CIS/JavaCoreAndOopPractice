@@ -10,7 +10,7 @@ public class WrapperClassDemo1 {
         //Conversion from (primitive dataType to Object)
         int x = 10;
         Integer z = Integer.valueOf(x);//Here, Integer is wrapper class;
-        Integer z1 = x;// compiler bujhe nai j Integer.valueOf();//autoboxing 
+        Integer z1 = x;// compiler bujhe nay j Integer.valueOf();//autoboxing 
         System.out.println("The object x: "+z1);
         System.out.println("The object x: "+z);
         //Conversion from Object to primitive datatype;
