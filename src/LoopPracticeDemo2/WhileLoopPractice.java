@@ -1,14 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package LoopPracticeDemo2;
 
-/**
- *
- * @author user
- */
+import java.util.Scanner;
+
+
 public class WhileLoopPractice {
-    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a number");
+        int count = input.nextInt();
+        
+        int initialization = 1;
+        
+        while( initialization <= count ){
+            System.out.println( initialization + " My Bangladesh");
+            initialization++;
+        }
+        
+        
+    }
+  
 }
