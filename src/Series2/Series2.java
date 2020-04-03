@@ -1,6 +1,6 @@
 
 package Series2;
-//1*
+//1*2*3*4*---n
 import java.util.Scanner;
 
 
