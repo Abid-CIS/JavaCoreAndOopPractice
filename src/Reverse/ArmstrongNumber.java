@@ -3,11 +3,13 @@ package Reverse;
 import java.util.Scanner;
 
 public class ArmstrongNumber {
-    //num = 153 = 1^3+2^3+3^3 = 153 hoy tobe ta armStrong number
     /*
+    Note:
+    num = 153 = 1^3+2^3+3^3 = 153 hoy tobe ta armStrong number
     ekta input number k alada alada kore qub kore jog korle 
     jodi result ta input number motai hoy tobe ta armstrong number. 
     */
+    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter some numbers: ");
