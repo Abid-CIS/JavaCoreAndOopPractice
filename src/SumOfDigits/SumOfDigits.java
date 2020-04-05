@@ -10,5 +10,6 @@ public class SumOfDigits {
         System.out.println("Enter any number: ");
         num = input.nextInt();
         
+        
     }
 }
