@@ -19,7 +19,7 @@ public class ArrayList1 {
             System.out.print(" "+ x);
         }
         System.out.println();
-        
+        //String Arraylist Declarations();
         names.add("Apurba");// Now we are going to priint all index's value
         names.add("Puja");//So, we have required a loop;
         names.add("Shuvra");
