@@ -20,6 +20,16 @@ public class ArrayList1 {
         }
         System.out.println();
         
+        names.add("Apurba");// Now we are going to priint all index's value
+        names.add("Puja");//So, we have required a loop;
+        names.add("Shuvra");
+        names.add("Rothosri");
+        names.add("Shuvs");
+        
+        for(String nam: names){
+            System.out.print(" "+nam);
+        }
+        System.out.println();
     }
     
 }
