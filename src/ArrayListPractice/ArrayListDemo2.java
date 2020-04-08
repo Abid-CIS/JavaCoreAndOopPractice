@@ -9,8 +9,9 @@ public class ArrayListDemo2 {
         /*
         here we will learn different types of methods for arrayList
         .size(), .clear(),.remove(), .removeAll(), .contains(), .add(), isEmpty() etc.
-        
-        
+        .set(indexNo, value)-for replace value.
+        .get(indexNo, value)-for getting that value
+        .contain(value)-Is this value exits or not.
         */
         ArrayList<Integer> num1 = new ArrayList<Integer>();
         
@@ -20,7 +21,7 @@ public class ArrayListDemo2 {
         num1.add(40);
         num1.add(50);
         //For printing value from an ArrayList
-        //Uasing for each loop;
+        //Using for each loop;
         for(int x1: num1){
             System.out.println(" "+x1);
         
