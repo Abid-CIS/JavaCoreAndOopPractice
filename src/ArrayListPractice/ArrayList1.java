@@ -13,7 +13,7 @@ public class ArrayList1 {
         num.add(20);
         num.add(30);
         num.add(40);
-        num.add(0, 50);
+        num.add(1, 50);// assigning one value in multiple area();
         
         System.out.println("Printing values of arrayList->> \n");
         
