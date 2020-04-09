@@ -51,6 +51,14 @@ public class Array2dAdd {
         // Adding 2 Arrays:
         System.out.println("\n");
         System.out.println("Adding 2 arrays: ");
+        int [][] add = new int[4][5];
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 5; j++) {
+                add [i][j] = num1[i][j] + num2 [i][j];
+                System.out.print(" " + add[i][j]);
+            }
+            System.out.println();
+        }
         
     }
     
