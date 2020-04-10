@@ -1,0 +1,18 @@
+
+package StringMaking;
+
+
+public class StringPracticeJavaTPoint {
+    public static void main(String[] args) {
+        //How to create String in java?
+        /*
+        Java string is immutable or Unmodifiable or Unchangeable
+        Onec string object is created it's data or state cann't be changed. 
+        There are 2 ways to create String in java?
+        1. By String literal.
+        2. By new keyword.
+        */
+        String s = "Sachin";//By string literal.
+        
+    }
+}
