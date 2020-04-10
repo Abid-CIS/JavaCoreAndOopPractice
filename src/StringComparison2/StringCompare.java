@@ -78,15 +78,16 @@ public class StringCompare {
          String a1 = "Sachin";// length 6
          String a2 = "Sachin";
          String a3 = "Ratan";
-         String a4 = "Rahimull";// length 7
+         String a4 = "Rahimulljjjjjjjjjj";// length 7
          String a5 = new String("Sachin");
-         
+         System.out.println("compare values laxicographically");
          //compare values laxicographically;
          System.out.println(a1.compareTo(a2));// return 0
+         System.out.println("two different object: "+a1.compareTo(a5));
          System.out.println(a1.compareTo(a3));// return 1 as a1 > a2
-         
-         System.out.println(a4.compareTo(a1));// return -1 as a1 < a2
-         
+         //Note boro tar sathe tulona korte hbe always;
+         System.out.println(a4.compareTo(a1));// return -1 as a1 < a4
+         System.out.println(a1.compareTo(a3));
          
          
         
