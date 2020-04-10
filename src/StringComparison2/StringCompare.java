@@ -62,7 +62,15 @@ public class StringCompare {
          note:
          comparison3 :
          Using compareTo() mthod
-            here, compareTo() method compare values laxicographically. 
+            here, compareTo() method compare values of 2 
+            strings laxicographically and return an integer vaule 
+            based on :
+            1st string is less than, equal to or 
+            greater than second string(The way words are alphabetically ordered)
+            Suppose S1 and S2 are two string variables: if:
+            s1 == s2;// will return 0
+            s1 > s2: positive value//such as 1
+            s1 < s2; will return negative value -1
             
          
          */
