@@ -15,6 +15,9 @@ public class StringPracticeJavaTPoint {
         String s = "Sachin";//By string literal.
         s.concat("Tendulkar"); //appends the string at the end.
         //a new object is created with "Sachin Tendulkar" in Heap (string constant pool)
-        
+        System.out.println("S : " + s );
+        // assing values to s reference variable.  
+        s=s.concat("Tendulkar");
+        System.out.println("After calling referance variable of s object: \n"+ s);
     }
 }
