@@ -58,7 +58,14 @@ public class StringCompare {
          }else{
              System.out.println("Not equal");
          }
-         //comparison3 :
+         /*
+         note:
+         comparison3 :
+         Using compareTo() mthod
+            here, compareTo() method compare values laxicographically. 
+            
+         
+         */
          
         
     }
