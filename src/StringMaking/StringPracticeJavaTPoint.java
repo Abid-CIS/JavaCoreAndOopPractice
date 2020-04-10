@@ -13,6 +13,7 @@ public class StringPracticeJavaTPoint {
         2. By new keyword.
         */
         String s = "Sachin";//By string literal.
-        
+        s.concat("Tendulkar"); //appends the string at the end.
+        //a new object is created with "Sachin Tendulkar" in Heap (string constant pool)
     }
 }
