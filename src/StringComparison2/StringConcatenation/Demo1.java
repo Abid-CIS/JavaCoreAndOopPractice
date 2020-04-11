@@ -16,5 +16,10 @@ public class Demo1 {
         //String concatenation operator (+) can concat not only string but also primitive values:
         String s = 50+30+"Sachin"+89;
         System.out.println("s is: " + s);
+        //Using concat() method.
+        String s3 = "Shuvra";
+        String s4 = " Debnath";
+        String s5 = s3.concat(s4);
+        System.out.println("s5 is: " + s5);
     }
 }
