@@ -29,6 +29,18 @@ public class SubstringInJava {
         //Another example of substring:
         String A = "Apurba Debnath Shuvra Debnath"; //A-0,p-1, ----
         String subString1 = A.substring(0,6);// 0 theke suru 6 er ag porjonto
+        String subString2 = A.substring(6,14);// 6 theke suru 14 er ag porjonto
+        String subString3 = A.substring(15,23);// 15 theke suru 23 er ag porjonto
+        String subString4 = A.substring(0,29);// 0 theke suru 29 er ag porjonto
         System.out.println("subString1 :"+ subString1);
+        System.out.println("subString1 :"+ subString2);// output : Debnath with space
+        System.out.println("subString1 :"+ subString3);// output :Shuvra D
+        System.out.println("subString1 :"+ subString4);// output :full string
+        //Using only one index : starting indexNo.
+        String subString5 = A.substring(0);
+        String subString6 = A.substring(15);
+        System.out.println("subString5: " + subString5);// 0 theke full 
+        System.out.println("subString5: " + subString6);// 0 theke full 
+        
     }
 }
