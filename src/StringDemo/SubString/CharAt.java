@@ -19,6 +19,10 @@ public class CharAt {
         output will return ASCII value of A , p, u er than jog korbe 
         than ekti integer number return korbe
         
+        */
+        System.out.println((a+b+c) +(" "+a+b+c));// 294 Apu
+        System.out.println("This is result:" + a + b + c);/*
+        ekhon string er sathe concat korai string return korche
         */ 
     }
 }
