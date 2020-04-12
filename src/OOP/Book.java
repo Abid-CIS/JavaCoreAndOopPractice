@@ -14,8 +14,8 @@ public class Book {
 //            page=d;
 //        
 //    }
-   void setinfo(String n, String c, String a, int pa){// cannot use same name as variable;
-       name=n;
+   void setinfo(String name, String c, String a, int pa){// cannot use same name as variable;
+       this.name=name;
        category= c;
        author=a;
        page=pa;
