@@ -16,5 +16,11 @@ public class Demo1 {
         String s2 = sb.reverse().toString();
         System.out.println("After reverse: "+sb);
         System.out.println("Now sb is: " + sb);// so string Buffer is immutable
+        s2 = sb.reverse().toString();
+        System.out.println("sb: "+ sb);
+        s2 = sb.delete(0,3).toString();
+        System.out.println("s2: " +sb);
+        
+        
     }
 }
