@@ -23,9 +23,9 @@ public class Book {
    void displayInfo(){
        
        System.out.println("The book name is "+ name);
-       System.out.println("The book name is "+ category);
-       System.out.println("The book name is "+ author);
-       System.out.println("The book name is "+ page);
+       System.out.println("The book category is "+ category);
+       System.out.println("The book author is "+ author);
+       System.out.println("The book page is "+ page);
        System.out.println();
    }
     
