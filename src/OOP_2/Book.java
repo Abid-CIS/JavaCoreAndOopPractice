@@ -8,10 +8,10 @@ public class Book {
     String version;
     int pageNo;
     
-    public void setValue(String a, String n, String v, int page){
-        this.Name =  n;
-        this.Author =a;
-        this.version = v;
+    public void setValue(String author, String name, String version, int page){
+        this.Name =  name;
+        this.Author =author;
+        this.version = version;
         this.pageNo = page;
     }
     public void displayValue(){
