@@ -15,9 +15,9 @@ public class DoWhileLoop {
      int count = 1;
      do{
      
-         System.out.print(i + " * \b" );
+         System.out.print("i = " + i + " * \b" );
          count = count*i;//2
-         System.out.println("The count is: " + count);
+         System.out.println(" Now count = " + count);
          i++;//2
      }while(i <= n);
         
